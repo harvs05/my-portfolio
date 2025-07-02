@@ -27,7 +27,7 @@ const Home = () => {
                 {/* button and socials */}
                 <div className="flex flex-col xl:flex-row items-center gap-8">
                     <a 
-                        href="/Harvey-Varela-CV.pdf" 
+                        href="/cv.pdf" 
                         download 
                         className="uppercase"
                     >
