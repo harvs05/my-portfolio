@@ -1,40 +1,36 @@
 import Link from "next/link";
 import { Button } from "./ui/button";
-
 import Nav from "./Nav";
 import MobileNav from "./MobileNav";
 
 const Header = () => {
-    return (
-    <header className="py-8 xl:py-12 text-white">
-        <div className="container mx-auto flex justify-between items-center">
-            {/* Logo */}
-            <Link href="/">
-                <h1 className="text-4xl font-semibold">
-                    Welcome<span className="text-accent">...</span>
-                </h1>
-            </Link>
+  return (
+    <header className="py-8 xl:py-12 text-white sticky top-0 bg-[#121212] z-50">
+      <div className="container mx-auto flex justify-between items-center">
+        {/* Logo */}
+        <Link href="/" className="text-4xl font-bold">
+          <h1>
+            Harvey<span className="text-accent">.</span>
+          </h1>
+        </Link>
 
-
-
-             {/* desktop nav */}
-            <div className="hidden xl:flex items-center gap-8">
-                <Nav/>
-                <Link href="/contact">
-                    <Button>
-                        Hire Me
-                    </Button>
-                </Link>
-            </div>
-
-            {/* desktop nav */}
-            <div className="xl:hidden">
-                <MobileNav />
-            </div>
-
+        {/* desktop nav */}
+        <div className="hidden xl:flex items-center gap-8">
+          <Nav />
+          <Link href="/contact">
+            <Button>
+              Hire Me
+            </Button>
+          </Link>
         </div>
+
+        {/* mobile nav */}
+        <div className="xl:hidden">
+          <MobileNav />
+        </div>
+      </div>
     </header>
-    );
+  );
 };
 
-export default Header
+export default Header;
