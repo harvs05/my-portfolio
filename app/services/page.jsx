@@ -8,25 +8,25 @@ const services = [
         num: "01",
         title: "Web Development",
         description: "I develop modern, scalable, and responsive websites using Laravel, Livewire, HTML, CSS, and JavaScript — optimized for performance and user experience.",
-        href: ""
+        href: "/work"
     },
     {
         num: "02",
         title: "UI/UX Design",
         description: "I craft clean and intuitive user interfaces in Figma, focused on usability, accessibility, and seamless user journeys across all devices.",
-        href: ""
+        href: "/work"
     },
     {
         num: "03",
         title: "Social Media Design",
         description: "I create eye-catching banners and Instagram carousels using Canva and Photoshop — perfect for digital marketing, promotions, and branding.",
-        href: ""
+        href: "/work"
     },
     {
         num: "04",
         title: "Digital Ads Design",
         description: "I design high-converting digital ads tailored for Facebook, Instagram, and web platforms, blending bold visuals with strategic messaging.",
-        href: ""
+        href: "/work"
     },
 ];
 
@@ -40,7 +40,7 @@ const Services = () => {
                 <motion.div initial={{opacity:0}} 
                 animate={{
                     opacity:1, 
-                    transition: {delay: 2.4, duration: 0.4, ease:"easeIn"},
+                    transition: {delay: 0.4, duration: 0.6, ease:"easeIn"},
             }}
             className="grid grid-cols-1 md:grid-cols-2 gap-[60px]"
             >
