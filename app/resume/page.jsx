@@ -231,7 +231,7 @@ const Resume = () => {
                           </ul>
                         </ScrollArea>
                       </div>
-                    </TabsContent>``
+                    </TabsContent>
 
                      {/* education */}
                     
