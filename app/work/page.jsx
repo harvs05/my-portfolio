@@ -91,7 +91,7 @@ const projects = [
         category: 'Azalea Photography Logo',
         title: 'project 6',
         description:
-        "A clean and modern mobile UI/UX design concept for SereniTea, one of the leading milk tea shops in the Philippines. This project focuses on enhancing user experience with an intuitive layout, seamless ordering flow, and a visually calming aesthetic inspired by SereniTea’s branding. Designed using Figma, Adobe Photoshop, and Canva to reflect the shop’s premium yet approachable identity.",
+        "A sophisticated and elegant logo designed for Azalea Photography. The logo combines modern typography with subtle floral elements to reflect the brand’s focus on capturing timeless, delicate moments. Crafted using Canva and Adobe Photoshop, the design emphasizes professionalism, creativity, and a personal touch tailored for the photography industry.",
         stack: [
             {name: "Canva"}, {name: "Adobe Photoshop"}
         ],
