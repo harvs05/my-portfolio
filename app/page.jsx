@@ -18,7 +18,7 @@ const Home = () => {
                     Hello I'm <br /> <span className="text-accent">Harvey Varela</span>
                 </h1>
                 <p className="max-w-[500px] mb-9 text-white/80">
-                    Offering flexible and reliable services in front-end web development, graphic design (Canva & Photoshop), 
+                    Offering flexible and reliable services in front-end web development, graphic design (Canva,Adobe Photoshop,Adobe Illustrator & Adobe InDesign), 
                     and technical support. With hands-on experience in local government projects,
                     I provide efficient solutions tailored to your needs whether it’s creating visuals,
                     fixing tech issues, or building responsive websites. 
