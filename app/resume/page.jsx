@@ -12,7 +12,7 @@ import {
     } from "react-icons/fa";
 
 import { 
-  SiTailwindcss, 
+  SiTailwindcss,
   SiNextdotjs, 
   SiLaragon, 
   SiLaravel,

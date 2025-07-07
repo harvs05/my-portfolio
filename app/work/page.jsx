@@ -48,6 +48,19 @@ const projects = [
     },
     {
         num: '03',
+        category: 'TrooTea Management and Inventory System',
+        title: 'project 2',
+        description:
+        "A custom-built Management and Inventory System developed for a local tea shop with a high customer volume. The owner needed an efficient way to track product stocks, record sales, and manage daily operations. This system allows the shop to easily monitor inventory levels, generate reports, and streamline store management. Built with PHP, Laravel, and Livewire, it offers a responsive and user-friendly interface tailored to the shop’s needs.",
+        stack: [
+            {name: "Php"}, {name: "Laravel"}, {name: "PHP mailer"}, {name:"MySql"}
+        ],
+        image: '/assets/work/TrooTeaMS.png',
+        live: "https://www.figma.com/proto/djZGQyxU3kCZ5vdovwgWee/TrooTea-Management-System?node-id=0-1&t=pR4yUqqj7pjtTFkN-1",
+        github: "",
+    },
+    {
+        num: '03',
         category: 'Dalaguete Chess Club Logo',
         title: 'project 3',
         description:
@@ -175,19 +188,7 @@ const Work = () => {
                                 </TooltipProvider>
                             </Link>
 
-                            {/* github project button*/}
-                            <Link href={project.github}>
-                                <TooltipProvider delayDuration={100}>
-                                    <Tooltip>
-                                        <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
-                                            <BsGithub className="text-white text-3xl group-hover:text-accent"/>
-                                        </TooltipTrigger>
-                                        <TooltipContent>
-                                            <p>Github repository</p>
-                                        </TooltipContent>
-                                    </Tooltip>
-                                </TooltipProvider>
-                            </Link>
+                          
 
 
                         </div>
