@@ -99,39 +99,77 @@ const projects = [
     github: "",
   },
 
-   {
+  {
     num: "08",
     category: "Social Media Design",
     title: "Iced Coffee",
     description:
-      "A visually appetizing food menu design created for digital and print. Designed with Canva and Photoshop.",
+      "An eye-catching and refreshing social media ad for an iced coffee campaign. Designed to attract attention and convey the cool, inviting vibe of the product. Created using Adobe Photoshop for a professional and appealing look.",
     stack: [{ name: "Adobe Photoshop" }],
     image: "/assets/work/ICEDCOFFEEADS.png",
     live: "",
     github: "",
   },
   {
-    num: "09",
-    category: "Social Media Design",
-    title: "ChocoPie Ice Cream",
-    description:
-      "A visually appetizing food menu design created for digital and print. Designed with Canva and Photoshop.",
-    stack: [{ name: "Adobe Photoshop" }, { name: "Canva" }],
-    image: "/assets/work/ICECREAMADS.png",
-    live: "",
-    github: "",
+  num: "09",
+  category: "Social Media Design",
+  title: "ChocoPie Ice Cream",
+  description:
+    "A sweet and enticing social media advertisement designed to showcase the rich, creamy goodness of ChocoPie Ice Cream. Crafted with vibrant visuals and delicious appeal to engage audiences on digital platforms. Created using Adobe Photoshop and Canva.",
+  stack: [{ name: "Adobe Photoshop" }, { name: "Canva" }],
+  image: "/assets/work/ICECREAMADS.png",
+  live: "",
+  github: "",
   },
-   {
-    num: "10",
-    category: "Digital Ads Design",
-    title: "Rent a Car ",
-    description:
-      "A visually appetizing food menu design created for digital and print. Designed with Canva and Photoshop.",
-    stack: [{ name: "Adobe Photoshop" }, { name: "Canva" }],
-    image: "/assets/work/RENTCARADS.png",
-    live: "",
-    github: "",
+  {
+  num: "10",
+  category: "Digital Ads Design",
+  title: "Rent a Car Ads",
+  description:
+    "A sleek and professional digital ad promoting car rental services, designed to attract customers with a modern and trustworthy look. Crafted with bold typography and clean visuals to highlight convenience and affordability. Created using Adobe Photoshop and Canva.",
+  stack: [{ name: "Adobe Photoshop" }, { name: "Canva" }],
+  image: "/assets/work/RENTCARADS.png",
+  live: "",
+  github: "",
   },
+
+  {
+  num: "11",
+  category: "UI/UX Design",
+  title: "MSI Web Own Design",
+  description:
+    "A custom UI/UX web design concept for MSI, showcasing a modern, tech-driven interface tailored for a seamless user experience. Designed with clean layouts, bold visuals, and intuitive navigation to reflect MSI’s cutting-edge brand identity. Created using Adobe Photoshop and Canva.",
+  stack: [{ name: "Adobe Photoshop" }, { name: "Figma" }],
+  image: "/assets/work/MSIUI.png",
+  live: "",
+  github: "",
+  },
+
+ {
+  num: "12",
+  category: "UI/UX Design",
+  title: "Crunch Cookies",
+  description:
+    "A playful and modern UI/UX web design concept for Cookie Crunch, a dessert and snack brand. Focused on delivering a delightful user journey with appetizing visuals, warm colors, and intuitive navigation that highlight the brand’s fun and inviting personality. Created using Adobe Photoshop and Figma.",
+  stack: [{ name: "Adobe Photoshop" }, { name: "Figma" }],
+  image: "/assets/work/BISCUITSUI.png",  // You might also want to change the image path to the correct one for Cookie Crunch
+  live: "",
+  github: "",
+},
+
+ {
+  num: "13",
+  category: "Social Media Design",
+  title: "Banana Meat Poster",
+  description:
+    "A nostalgic Dalaguete-style ad celebrating the beloved Banana Meat — homegrown flavor, proudly local. Designed with warmth and heritage in mind using Photoshop and Canva.",
+  stack: [{ name: "Adobe Photoshop" }, { name: "Canva" }],
+  image: "/assets/work/BANANAMEATADS.png",  // You might also want to change the image path to the correct one for Cookie Crunch
+  live: "",
+  github: "",
+},
+
+
 ];
 
 const Work = () => {
