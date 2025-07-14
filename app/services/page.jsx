@@ -10,28 +10,28 @@ const services = [
     title: "Web Development",
     description:
       "I develop modern, scalable, and responsive websites using Laravel, Livewire, HTML, CSS, and JavaScript — optimized for performance and user experience.",
-    href: "/work",
+    href: "/work?category=Web%20Development",
   },
   {
     num: "02",
     title: "UI/UX Design",
     description:
       "I craft clean and intuitive user interfaces in Figma, focused on usability, accessibility, and seamless user journeys across all devices.",
-    href: "/work",
+    href: "/work?category=UI%2FUX%20Design",
   },
   {
     num: "03",
     title: "Social Media Design",
     description:
       "I create eye-catching banners and Instagram carousels using Canva and Photoshop — perfect for digital marketing, promotions, and branding.",
-    href: "/work",
+    href: "/work?category=Social%20Media%20Design",
   },
   {
     num: "04",
     title: "Digital Ads Design",
     description:
       "I design high-converting digital ads tailored for Facebook, Instagram, and web platforms, blending bold visuals with strategic messaging.",
-    href: "/work",
+    href: "/work?category=Digital%20Ads%20Design",
   },
 ];
 
@@ -75,7 +75,9 @@ const Services = () => {
               </h2>
 
               {/* description */}
-              <p className="text-white/70 text-sm leading-relaxed">{service.description}</p>
+              <p className="text-white/70 text-sm leading-relaxed">
+                {service.description}
+              </p>
 
               {/* border */}
               <div className="border-b border-white/20 w-full"></div>

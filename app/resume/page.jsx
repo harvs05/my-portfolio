@@ -70,7 +70,7 @@ const experience = {
     {
       company: "Municipal Government of Dalaguete",
       position: "Junior Developer & Graphic Designer",
-      duration: "2024 – Present",
+      duration: "July 2024 – July 2025 ",
       details: [
         "Develop and maintain web-based systems using PHP, MySQL, and JavaScript.",
         "Provide technical support for hardware and software issues.",
@@ -178,6 +178,27 @@ const skills = {
   ],
 };
 
+// certificate data
+const certificate = {
+  icon: '/assets/resume/cap.svg',
+  title: "Certificates",
+  description:
+    "Some of my earned certificates showcasing my skills and completed trainings.",
+  items: [
+    {
+      title: "MultiCloud Network Associate",
+      credentialId:"4af1dd62-4ded-4fbc-b9a2-c7b63aaef05b",
+      issuer: "Aviatrix",
+      image: "/assets/certificate/Aviatrix.png", // Make sure this image exists in the /public/certificates folder
+    },
+    {
+      title: "AI Fundamentals with IBM SkillsBuild",
+      credentialId:"74dcb91e-00ea-4f84-b532-1e6fcd776184",
+      issuer: "Cisco Networking Academy",
+      image: "/assets/certificate/certificate2.png",
+    },
+  ],
+};
 
 
 import { Tabs, TabsContent, TabsList, TabsTrigger} from "@/components/ui/tabs";
@@ -205,6 +226,7 @@ const Resume = () => {
                   <TabsTrigger value="experience">Experience</TabsTrigger>
                   <TabsTrigger value="education">Education</TabsTrigger>
                   <TabsTrigger value="skills">Skills</TabsTrigger>
+                  <TabsTrigger value="certificate">Certificate</TabsTrigger>
                   <TabsTrigger value="about">About Me</TabsTrigger>
                 </TabsList>
 
@@ -283,6 +305,35 @@ const Resume = () => {
                             );
                           })}
                         </ul>
+                      </div>
+                    </TabsContent>
+
+                    {/* certificate */}
+                    <TabsContent value="certificate" className="w-full">
+                      <div className="flex flex-col gap-[30px] text-center xl:text-left">
+                        <h3 className="text-4xl font-bold">{certificate.title}</h3>
+                        <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                          {certificate.description}
+                        </p>
+                        <ScrollArea className="h-[400px]">
+                          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-[30px]">
+                            {certificate.items.map((item, index) => (
+                              <li
+                                key={index}
+                                className="bg-[#232329] p-6 rounded-xl flex flex-col gap-4 items-center"
+                              >
+                                <img
+                                  src={item.image}
+                                  alt={item.title}
+                                  className="rounded-lg object-cover w-full h-[200px]"
+                                />
+                                <h4 className="text-xl font-semibold">{item.title}</h4>
+                                <p className="text-white/30 ">{item.credentialId}</p>
+                                <p className="text-white/60">{item.issuer}</p>
+                              </li>
+                            ))}
+                          </ul>
+                        </ScrollArea>
                       </div>
                     </TabsContent>
 
