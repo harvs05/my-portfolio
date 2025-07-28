@@ -169,6 +169,77 @@ const projects = [
   github: "",
 },
 
+{
+  num: "14",
+  category: "Social Media Design",
+  title: "Pizza Ads Poster",
+  description:
+    "",
+  stack: [{ name: "Adobe Photoshop" }, { name: "Adobe Illustrator" }],
+  image: "/assets/work/PizzaAdsPoster.png",  // You might also want to change the image path to the correct one for Cookie Crunch
+  live: "",
+  github: "",
+},
+
+{
+  num: "15",
+  category: "Social Media Design",
+  title: "Instagram Carousel Post",
+  description:
+    "",
+  stack: [{ name: "Adobe Photoshop" }, {name: "Canva"}],
+  image: "/assets/work/Instagramcarousel.png",  // You might also want to change the image path to the correct one for Cookie Crunch
+  live: "",
+  github: "",
+},
+
+{
+  num: "16",
+  category: "Digital Ads Design",
+  title: "Vegetable Salad Ads",
+  description:
+    "",
+  stack: [{ name: "Adobe Photoshop" }, { name: "Adobe Illustrator" }],
+  image: "/assets/work/vegetablesaladposter.png",  // You might also want to change the image path to the correct one for Cookie Crunch
+  live: "",
+  github: "",
+},
+
+{
+  num: "17",
+  category: "Digital Ads Design",
+  title: "JBL Speaker Banner Ads",
+  description:
+    "",
+  stack: [{ name: "Adobe Photoshop" }, { name: "Adobe Illustrator" }],
+  image: "/assets/work/JBLspeakerbannerads.png",  // You might also want to change the image path to the correct one for Cookie Crunch
+  live: "",
+  github: "",
+},
+{
+  num: "18",
+  category: "Social Media Design",
+  title: "Orange Juice Photo Manipulation",
+  description:
+    "",
+  stack: [{ name: "Adobe Photoshop" }],
+  image: "/assets/work/orangejuicephotomanipulation.png",  // You might also want to change the image path to the correct one for Cookie Crunch
+  live: "",
+  github: "",
+},
+
+{
+  num: "19",
+  category: "UI/UX Design",
+  title: "MCLaren Car Landing Page with Mobile Version",
+  description:
+    "",
+  stack: [{ name: "Adobe Photoshop" }, { name: "Figma" }],
+  image: "/assets/work/Mclarenladingpage.png",  // You might also want to change the image path to the correct one for Cookie Crunch
+  live: "",
+  github: "",
+},
+
 
 ];
 
